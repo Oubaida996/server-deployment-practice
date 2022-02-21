@@ -2,11 +2,10 @@
 
 const server = require("./server");
 
-require("dotenv").config;
+require('dotenv').config();
 
 
 
-server.start(process.env.PORT || 3001); 
-
+server.start(process.env.PORT || 3001 );
 
 
